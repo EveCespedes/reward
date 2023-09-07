@@ -82,4 +82,47 @@ body{
     color: #005691;
 }
 
-/* carrusel */
+/* seccion estudio juridico */
+
+.estudio {
+    background-color: #495464;
+    padding: 100px;
+
+}
+
+.estudioDos {
+    color: #fafafa;
+    font-weight:bold ;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.indexEstudio {
+    color: #fafafa;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.bej { background-color:#E8E8E8;
+    
+}
+
+.bej:hover {
+    background-color: #BBBFCA;
+    
+}
+
+.buej {
+    text-decoration: none;
+    color: #495464;
+
+}
+
+.estudioTres {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;}
