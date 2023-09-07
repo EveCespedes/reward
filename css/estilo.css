@@ -1,5 +1,7 @@
-* { margin: 0 ;
-    border: 0 ;
+* {
+    margin: 0;
+    border: 0;
+  
 
 }
 
@@ -8,14 +10,17 @@
 
 
 /* general */
-body{
-    font-family: 'Mukta', sans-serif;;
+body {
+    font-family: 'Mukta', sans-serif;
+    ;
 }
+
 /* header */
 /* logo */
-.miLogo{
+.miLogo {
     width: 150px;
 }
+
 /* estilos header */
 .miFondo {
     background-color: #fafafa;
@@ -34,7 +39,7 @@ body{
     color: #004A7C;
 }
 
-.miLink:hover{
+.miLink:hover {
     background-color: #005691;
 }
 
@@ -50,7 +55,7 @@ body{
     font-size: 45px;
     text-align: center;
     color: #004A7C;
-    font-weight: bold ;
+    font-weight: bold;
 }
 
 .descripcionIndex {
@@ -66,7 +71,7 @@ body{
 
 .boton {
     background-color: #005691;
-    
+
 }
 
 .botonNosotros {
@@ -74,7 +79,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 .bno:hover {
@@ -92,7 +97,7 @@ body{
 
 .estudioDos {
     color: #fafafa;
-    font-weight:bold ;
+    font-weight: bold;
     text-align: center;
     font-size: 50px;
 
@@ -106,13 +111,14 @@ body{
 
 }
 
-.bej { background-color:#E8E8E8;
-    
+.bej {
+    background-color: #E8E8E8;
+
 }
 
 .bej:hover {
     background-color: #BBBFCA;
-    
+
 }
 
 .buej {
@@ -121,8 +127,62 @@ body{
 
 }
 
+.buej:hover {
+    color: black;
+}
+
 .estudioTres {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;}
+    justify-content: center;
+}
+
+/* seccion teleassist */
+
+.tele {
+    background-color: #004A7C;
+    padding: 100px;
+}
+
+.teleDos {
+    text-align: center;
+    color: #fafafa;
+    font-weight: bolder;
+    font-size: 65px;
+}
+
+.indexTele {
+    text-align: center;
+    color: #fafafa;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.teleTres {
+    text-decoration: none;
+    color: #005691;
+}
+
+.btele {
+    background-color: #E8F1F5;
+}
+
+.btele:hover {
+    background-color: #004A7C;
+    color: #BBBFCA;
+}
+
+.teleTres:hover {
+    color: #fafafa;
+}
+
+.botonTele {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+  
