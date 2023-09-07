@@ -1,7 +1,7 @@
 * {
     margin: 0;
     border: 0;
-  
+
 
 }
 
@@ -184,5 +184,125 @@ body {
     justify-content: center;
 }
 
+/* Body Teleassist */
 
-  
+/* sector contacto */
+.obra {
+    background-color: #004A7C;
+    padding: 100px;
+}
+
+.tituloObra {
+    text-align: center;
+    color: #fafafa;
+    font-weight: bolder;
+    font-size: 45px;
+
+}
+
+.parrafoObra {
+    text-align: center;
+    color: #fafafa;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.btassist {
+    background-color: #BBBFCA;
+
+}
+
+.assist {
+    color: #495464;
+    text-decoration: none;
+
+}
+
+.btassist:hover {
+    background-color: #495464;
+}
+
+.assist:hover {
+    color: #fafafa;
+
+}
+
+.botonObra {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* sector informacion de planes */
+
+.planes {
+    background-color: #E8F1F5;
+    padding: 100px;
+
+}
+
+.titulosPlanes {
+    color: #004A7C;
+    font-size: 50px;
+    font-weight: bolder;
+    padding-bottom: 50px;
+}
+
+.planUno {
+    padding-bottom: 30px;
+}
+
+.tituloUno {
+    font-weight: bolder;
+}
+.paUno {
+    font-size: 25px;
+}
+
+.planDos {
+    padding-bottom: 30px;
+}
+
+.tituloDos {
+    font-weight: bolder;
+
+}
+
+.paDos {
+    font-size: 25px;
+}
+
+.planTres {
+    padding-bottom: 30px;
+}
+
+.tituloTres {
+
+    font-weight: bolder;
+}
+
+.paTres {
+    font-size: 25px;
+}
+
+.planCuatro {
+    padding-bottom: 30px;
+}
+
+.tituloCuatro {
+    font-weight: bolder;
+
+}
+
+.paCuatro {
+    font-size: 25px;
+}
+
+/* carrusel dos */
+
+.carruselDos {
+    color: black;
+    font-weight: bold;
+}
