@@ -16,7 +16,7 @@ body{
 .miLogo{
     width: 150px;
 }
-
+/* estilos header */
 .miFondo {
     background-color: #fafafa;
     border-top: #004A7C solid 5px;
@@ -36,4 +36,48 @@ body{
 
 .miLink:hover{
     background-color: #005691;
+}
+
+/* body index */
+/* seccion nosotros */
+
+.nosotros {
+    background-color: #E8F1F5;
+    padding: 60px;
+}
+
+.titulo {
+    font-size: 45px;
+    text-align: center;
+    color: #004A7C;
+    font-weight: bold ;
+}
+
+.descripcionIndex {
+    text-align: center;
+    color: #004A7C;
+    font-weight: bolder;
+}
+
+.miBoton {
+    color: #fafafa;
+    text-decoration: none;
+}
+
+.boton {
+    background-color: #005691;
+    
+}
+
+.botonNosotros {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.bno:hover {
+    background-color: #fafafa;
+    color: #005691;
 }
