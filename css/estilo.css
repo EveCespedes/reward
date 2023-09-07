@@ -1,0 +1,39 @@
+* { margin: 0 ;
+    border: 0 ;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2? family= Lora:ital@1 & family= Mukta & family= Noto+Sans & display=swap');
+
+
+/* general */
+body{
+    font-family: 'Mukta', sans-serif;;
+}
+/* header */
+/* logo */
+.miLogo{
+    width: 150px;
+}
+
+.miFondo {
+    background-color: #fafafa;
+    border-top: #004A7C solid 5px;
+}
+
+.navbar-collapse {
+    font-size: 30px;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.nav-link {
+    color: #004A7C;
+}
+
+.miLink:hover{
+    background-color: #005691;
+}
