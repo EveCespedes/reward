@@ -306,3 +306,90 @@ body {
     color: black;
     font-weight: bold;
 }
+
+
+
+/* body estudio juridico */
+/* informacion del estudio */
+
+.seccionEstudio  {
+    background-color: #495464;
+    padding: 100px;
+}
+
+.tituloEstudio {
+    color: #fafafa;
+    font-weight: bolder;
+    font-size: 45px;
+    text-align: center;
+}
+
+.parrafoEstudio {
+    color: #fafafa;
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* servicios que brindamos */
+
+.serv {
+    background-color: #BBBFCA;
+    padding: 100px;
+}
+
+.servTitulo{
+    font-weight: bold;
+    color: #004A7C;
+    font-size: 45px;
+    padding-bottom: 35px;
+
+}
+
+.lista {
+    color: #495464;
+    font-weight: bolder ;
+    font-size: 25px;
+}
+
+.mej {
+
+    background-color: #E8E8E8;
+    padding: 100px;
+}
+
+.con {
+    color: #004A7C;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.botonJuri {
+    background-color: #495464;
+}
+
+.coJuri {
+    color: #fafafa;
+    text-decoration: none;
+
+}
+
+.botonJuri:hover {
+    background-color: #BBBFCA;
+}
+
+.coJuri:hover {
+    color:#495464;
+}
+
+
+.moverBoton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+
+}
